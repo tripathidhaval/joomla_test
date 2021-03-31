@@ -1,16 +1,4 @@
 <?php
-/**
- * @package    Joomla.Cli
- *
- * @copyright  Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-/**
- * This is a CRON script which should be called from the command-line, not the
- * web. For example something like:
- * /usr/bin/php /path/to/site/cli/update_cron.php
- */
 
 // Set flag that this is a parent file.
 const _JEXEC = 1;
@@ -42,7 +30,7 @@ require_once JPATH_CONFIGURATION . '/configuration.php';
  *
  * @since  2.5
  */
-class Updatecron extends JApplicationCli
+class birthdayEmail extends JApplicationCli
 {
 	/**
 	 * Entry point for the script
