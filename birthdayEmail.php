@@ -89,4 +89,4 @@ SELECT DATE(REPLACE(b.profile_value,'"','')) as bdate,a.id,a.name,a.email FROM `
 	}
 }
 
-JApplicationCli::getInstance('Updatecron')->execute();
+JApplicationCli::getInstance('birthdayEmail')->execute();
